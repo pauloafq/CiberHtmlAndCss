@@ -1,0 +1,526 @@
+ 
+
+
+header{
+    
+    background: white;
+    padding: 10px 0px 0px 0px;
+    color: red;
+    border-image: 50;    
+    margin:  0 auto;
+    border-radius: 50px;
+    bottom: 200;
+    position: relative;
+    /*border: solid ipx black;*/
+    
+}
+
+:root{
+    --colorFondoInstagram:rgb(169, 31, 173);/*se crea una variable de color */
+    --fondoBoton:blue; /*por si la queremos usar en u hover*/
+    --colorciber:rgb(13, 179, 201);
+
+}
+
+
+
+
+.linea_gris{
+    background-color: rgb(93, 97, 97);
+    color: white;
+    width:100%;
+    height: 50px;
+    padding: 25px;
+    /*background: url("Dibujos/capturadora.png");*/
+}
+
+.linea_gris h3{
+
+    color: rgb(206, 10, 10);
+}
+
+@media(min-width:700px){
+    /*si pasa que la pantalla se reduce a 800 pixeles pasa algo */
+    .linea_gris{
+        background-color: rgb(6, 90, 20);
+        color: black;
+        
+    }
+
+    .linea_gris h3{
+ 
+        color:blue;
+        
+    }
+
+    .video{
+
+        height: 45%;
+        width: 45;
+        display: flex-start;
+    }
+    }
+
+.boton{
+color: white;
+background-color: rgb(13, 179, 201);
+font-size: 20px;
+width: 175px; 
+display: block;
+margin: 20px auto; /*le da un margen a los bordes de lo interno hacia afuera se bajo 20 pixeles y se centro */
+padding: 10px 0; /*es lo interno */
+text-align: center;
+text-decoration: none; /*le quita el subrayado del enlace*/
+border-radius: 10px;
+border-bottom: solid gray;
+border-right: solid 5px gray;
+
+}
+
+.boton:hover{
+    background-color: gray;
+    color: white;
+}
+
+.boton:active{
+ /*esto es para que se quede de esta forma si se hace click*/
+    background: black;
+    color: white;
+}
+
+
+.video_ciber{
+    border-radius: 10%; /* aqui redondeo el viedo pero el viedo tiene los controles y no se me redondea completo.*/
+}
+
+.video{
+    display: flex;
+    text-align: center;
+    
+    
+    
+    
+    /*border: solid 1px black;
+    margin: 10 auto;
+    justify-content: center;
+    #08f
+    rgba(12, 211, 211, 0.61)
+    */
+    
+    /*border-radius: 40px;*/
+}
+
+.descripcion{
+
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.h21{
+
+    color: white;
+    text-align: center;
+
+}
+
+.titulo{
+
+    font-size: 40px;
+    font-weight: 700; /* viene siendo como la negrita*/
+    color: darkgreen;
+
+}
+
+.titulo-productos{
+
+    text-align: center;
+    padding-top: 40px;
+}
+
+.titulo_prim{
+    padding: 25px 0 0 50px;
+
+}
+.Prueba{ /*hover*/
+    display: inline-block;
+    /*vertical-align: middle;*/
+    text-decoration: underline;
+    width: 100%;
+    text-align:justify;
+    background-color: rgb(114, 111, 109);
+    /*margin-left: 10%;*/
+    color: white;
+ 
+       /*background-position: center;*/
+       
+}
+
+
+.Prueba ul{ /* le puse ul pues me refiero a los datos ul de la lista*/
+
+    list-style: none; /* le quita los puntos a la lista de  */
+    size: 18px;
+    margin-left: 10%;
+}
+
+.Prueba li{
+
+    float: left; /* alinea las lista hacia la isquierda */ 
+    margin-left: 5%;
+    margin-bottom: 1%;
+    font-size: 22px;
+    justify-content: center;
+    
+ 
+
+    /*font-weight: 700;*/
+    
+    
+}
+
+.Prueba li:hover{
+    /* se le cambia de color */
+    color: rgb(41, 210, 216);
+}
+p::first-letter{/*hace las letras del parrafo grandes */
+ 
+    font-size: 30px;
+}
+
+.fab{
+
+    background-color:rgb(19, 19, 226);
+    padding: 10px;
+    color: white;
+    
+}
+.fa-instagram{ /* para modificar todo lo de instagram o icono  */
+    /*background-color:rgb(169, 31, 173);*/
+    background-color: var(--colorFondoInstagram); /*se uso el color de la variable creada para intagram.*/
+
+}
+
+
+.imagenheader{
+padding: 20px 100px 20px 100px;
+text-align: center;
+
+
+}
+.imagenheader img{
+    border-radius: 50px;
+    padding: 20px;
+    /*clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%);
+*/ /*con este clip path le damos */
+    }
+.parrafo{
+
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: auto;
+    /*margin: auto;*/
+}
+    
+
+
+.header-wave{
+   position: relative;
+   background-attachment:fixed;
+   background-size: cover;
+}
+/*. refieres a clases */
+
+
+ video{/* se le hace borde redondo al video exclusivamente */
+    border-radius: 25px;
+    cursor: pointer;
+    border-top-left-radius: 25px;
+    border: solid 3px black;
+    /*background-color: brown;*/
+    background: url(C:\Users\LENOVO\Documents\HTML,CSS\ARCHIVOS\Newfolder\Dibujos\circuit.io-pcb.png);
+    
+
+    
+    
+
+}
+
+
+.contenedor{
+    
+    /*font-size: 100px;*/
+    color: cadetblue;
+    padding: 30px;
+    padding-left: 20px;
+    margin-left: 0px;
+    text-align: center;
+    border:solid green;
+    display: flex-start;
+
+}
+
+.forms{
+border: solid tomato;
+    /*justify-content: center;*/
+    text-align: center;
+    /*margin-left: 10%;*/
+    padding: 20px;
+   /*width:10 %;*/
+   display:flex; /* con esto se hicieron del mismo tamaño lo que estaba dentro del forms*/
+    margin-left: 10%;
+    
+}
+
+.forms2{
+
+    border: solid rgb(196, 3, 3);
+    display:flex;
+    background-color: blue;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.form1{
+
+    border: solid black;
+    border-radius: 25px;
+    background-color: rgb(7, 72, 75);
+    color:white;
+    text-align: center;
+    width: 10%;
+    /*padding: 1px 2px 1px 1px;*/
+    /*justify-content:center;*/
+    margin-left: 5%;
+    
+}
+.form2{
+
+    
+    border: solid black;
+    border-radius: 25px;
+    background-color: rgb(75, 7, 66);
+    color:white;
+    text-align: center;
+    width: 175px;
+    /*padding: 25px 2px 20px 10px;*/
+    justify-content:center;
+    margin-left: 1%;
+    
+
+}
+
+
+.boton-al-inicio{
+    color: white;
+    background-color: rgb(13, 179, 201);
+    font-size: 20px;
+    width: 175px; 
+    display: block;
+    margin: 20px auto; /*le da un margen a los bordes de lo interno hacia afuera se bajo 20 pixeles y se centro */
+    padding: 10px 0; /*es lo interno */
+    text-align: center;
+    text-decoration: none; /*le quita el subrayado del enlace*/
+    border-radius: 10px;
+    border-bottom: solid gray;
+    border-right: solid 5px gray;
+
+}
+
+input:focus{ /* cuando le des click al place holder cambia de color */
+    background-color: yellowgreen; 
+
+}
+
+.boton-subir:hover{
+
+    background: red;
+}
+
+
+
+.boton-subir:active{
+/*recordar que esto va despues del hover y al hacer el evento del click pasara esto*/
+    background: hotpink;
+    color: red;
+}
+
+.footer {
+
+display: flex; /* acomodo las cosas en grupos dependiendo del area o clase... */
+/*width: 90%;*/
+justify-content: space-evenly; /*espacio entre las areas... */
+margin: auto;
+padding-bottom: px;
+
+background: rgb(9, 122, 47);
+/*background: url(C:\Users\LENOVO\Documents\HTML,CSS\ARCHIVOS\Newfolder\Dibujos\circuit.io-pcb.png);*/
+text-align: center;
+/*padding: 0px 0px 10px 10%;*/
+
+/*position: relative;*/
+}
+
+#b1{
+    text-align: center;
+    
+    /*background: #08f;*/ /* recuerde que es detras del boton no solo el boton */  
+}
+
+.parrafo_lorem{
+    padding: 20px 100px 30px 100px;
+    /*margin: auto;*/
+    /*overflow: hidden;*/
+    /*display: flex;*/
+    /*width: 90;*/
+    justify-content: space-evenly;
+    text-align: justify;
+    
+
+}
+/*.prueba: nav{
+    text-decoration: underline;
+}*/
+
+/*# es para el id */
+/*. es para las clases  */
+.body{
+background: rgba(201, 209, 216, 0.568);
+/*color: white;*/
+border:solid 2px black;
+font-family: "open sans";
+text-align: center;
+/*background:url(C:\Users\LENOVO\Documents\HTML,CSS\ARCHIVOS\Newfolder\Dibujos\circuit.io-pcb.png);*/
+
+/*nav-index: auto;*/
+/*padding : es para ponerle un espaciado ya sea arriba abajo o a los lados ej padding: 50px;*/
+
+
+}
+
+.borde{
+/*border: solid 3px black;*/
+padding: 0px 35% 0px 35%;
+/*border: solid ipx black;*/
+
+}
+
+.body p{
+padding: 0px 0px 30px 15px ;
+}
+
+.img_circuito{
+
+    /*background-color: rgb(93, 97, 97);*/
+    /*color: white;*/
+    /*width:100%;*/
+    /*height: 50px;*/
+    /*width: 50%;*/
+    border-radius: 10%;
+    /*padding: 25px;*/
+    border: solid 3px rgb(187, 11, 11);
+    transition: all .5s; /*me muevo despacio */
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+
+}
+.img_circuito:hover{
+    transform: translate(40%);
+  
+    
+
+}
+
+.cap{
+/*color: teal;*/
+border-radius: 10%;
+border: solid 3px red;
+background: rgb(58, 214, 235);
+/*width: 100px;
+height: 100px;*/
+display: block;
+object-fit: cover;
+justify-content: center;
+text-align: center;
+
+
+}
+
+.capturadora{
+
+    border: solid 2px black;
+}
+
+.cap img{
+    border-radius: 50%; /* darle forma redonda a la foto*/
+    object-fit: cover;
+    width:35% ;
+    height: 35%;
+    text-align:justify;
+    
+    padding: 0px 0px 0px 0px;
+}
+
+.datos{
+
+    color: white;
+}
+
+.galeria_productos{
+    background-color: white;
+    
+}
+
+.contenedor-imgs{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-left: 5%;
+}
+
+.contenedor-imgs img{
+   
+    width: 30%;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    margin: 10px;
+    
+   
+}
+.contenedor-imgs img:hover{ /* se le pone la sombra a imagen cuando pasa el mouse */
+
+    color: white;
+    box-shadow: 0 0 25px rgb(36, 195, 223);
+
+   
+}
+
+.container_items{
+    width: 600px;
+    height: 600px;
+    margin: 20px auto;
+    border: 10px solid black;
+
+}
+.item{
+
+    background: rgb(161, 10, 154);
+    color: white;
+    width: 300px;
+    height: 300px;
+    transform: translate(125px, 125px); /* se traslada segun el eje x o y , se pone negativo para hacer lo contrario*/
+    transition: all .3s;/* esto hace que la moviemineto del hober sea lento de acuerdo a los segundos */
+}
+
+.container_items:hover .item{
+
+    transform: scale(0.3);
+    transform: rotate(-60deg);
+
+
+}
+
+

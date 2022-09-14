@@ -1,0 +1,10 @@
+/*Escritorios grandes 
+-----------------------------------------------*/
+@media(min-width: 720px){
+.forms{
+    width: 45%;
+    /*margin: 50%;*/
+
+}
+    
+}

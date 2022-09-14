@@ -1,0 +1,134 @@
+*{
+    /*reseteo del navegador, buena practica*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/*variables */
+
+:root{
+ 
+    --colortitulos: red;
+    
+}
+
+
+
+/* header */
+.header{
+
+    /*background-color: red;*/ /*este es el color detras*/
+    height: 150px;
+    color: rgb(5, 5, 5);
+    width: 100%;
+    /*padding: 5%;*/
+    /*margin:auto;*/
+    /*justify-content: space-between;*/
+    /*display: inline-block;*/
+    /*display: flex; /*acomoda las cosas */
+    padding-top: 5%;
+    padding-left: 12%;
+    
+}
+
+
+
+
+body{
+
+    padding-bottom: 0.5%;
+}
+
+.beta{
+
+    padding-left: 35%;
+    padding-bottom: 2%;
+}
+
+
+
+.logo img{
+color: white;
+background-color: white;
+}
+
+.circuito img{
+
+    height: 100px;
+    width: 100%;
+}
+
+.logociber img{
+    color:black;
+    border-radius: 20px;
+    
+    /*padding: 15%;*/
+   
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+    
+} 
+
+.tituloPrincipal{
+
+    padding-top: 15%;
+    padding-left: 17%;
+    justify-content: center;
+}
+
+.descripcion{
+    padding-top: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+
+.fab{
+
+    background-color:rgb(9, 80, 32);
+    padding: 10px;
+    color: white;
+
+}
+.contenedor{
+    padding-top: 10px;
+    padding-left: 17%;
+    border-color: black;
+    color: white;
+    background-color: rgb(72, 128, 8);
+    display: flex;
+    justify-content: space-between;
+}
+
+.tituloSection{
+    padding-bottom: 5px;
+    color: white;
+    background-color: rgb(72, 128, 8);
+    padding-left: 40%;
+    padding-bottom: 20px;
+
+}
+.tituloSection{
+
+    padding-bottom: 50px;
+
+}
+
+
+.footer{
+
+    padding-bottom:1%;
+    /*margin-bottom: 5%;*/
+    
+}
+
+
+
+/*body{
+    
+}*/

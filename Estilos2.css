@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    /*padding-left: 25%;*/
+    float: left;
+  
+    
+    
+}
+
+.forms{
+
+background-color: blue;
+        /*float: left;*/
+        /*flex-direction: row;*/
+
+}
+
+.form{
+
+    border: solid black;
+    padding-left: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 25%;
+    background-color: rgb(221, 18, 18);
+    /*float: left; /*me agrupa todo de izquierda a derecha*/
+    
+}
+
+@media(max-width:700px){ /*cuando hice la pantalla tamañno de 700 cambia de color a negro*/
+        /*este max-width tambien existe min-width*/
+    .form{
+        background-color: black;
+        width: 70%;
+        color: blanchedalmond;
+        border: solid red;
+        
+    }
+}
+
+.form2{
+
+    border: solid black;
+    padding-left: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 25%;
+    background-color: rosybrown;
+    
+    
+}
+.boton-al-inicio{
+    margin-left: 30%;
+
+}
+
